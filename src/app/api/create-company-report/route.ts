@@ -18,5 +18,5 @@ export async function POST(req: NextRequest) {
 
     await saveAudiencePageData(slug, logo, data, companyName);
 
-    return NextResponse.json({ url: `/audiences/${slug}` });
+    return NextResponse.json({ url: `${req.nextUrl.origin}/audiences/${slug}` });
 }
