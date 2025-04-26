@@ -1,0 +1,12 @@
+/* fade.css */
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    /* Adjust duration as needed */
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
