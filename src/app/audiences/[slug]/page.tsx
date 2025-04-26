@@ -74,7 +74,7 @@ export default function Home({
     return (
         <div className="w-full h-screen bg-white fade-in">
             <div className="flex flex-col items-center justify-center bg-white text-black p-9 gap-12">
-                <div className="w-full max-w-[1184px] inline-flex justify-between items-center">
+                <div className="w-full max-w-[1720px] inline-flex justify-between items-center">
                     <div className="flex justify-start items-center gap-3.5">
                         <Image className="w-16 h-16 rounded-lg" src={logoUrl} alt={companyName || "LilBucks"} width={70} height={70} />
                         <div className="inline-flex flex-col justify-start items-start">
@@ -106,7 +106,7 @@ export default function Home({
                     </div>
                 </div>
 
-                <div className="w-full max-w-[1184px] h-full relative bg-white rounded-xl shadow-[0px_1.357894778251648px_2.715789556503296px_0px_rgba(40,40,40,0.04)] border-[1.36px] border-neutral-200 p-8" >
+                <div className="w-full max-w-[1720px] h-full relative bg-white rounded-xl shadow-[0px_1.357894778251648px_2.715789556503296px_0px_rgba(40,40,40,0.04)] border-[1.36px] border-neutral-200 p-8" >
                     <div className="inline-flex flex-col justify-start items-center gap-3">
                         <div className="text-center justify-start"><span className="text-black text-2xl font-bold">Reach the right audience, based on what they </span><span className="text-black text-2xl font-normal">actually buy</span></div>
                         <div className="w-3/4 text-center justify-start text-zinc-500 text-base font-normal leading-snug">Stop wasting budget on algorithm guesses. GoAudience uses Al and real purchase behavior to build custom audiences for your brand—so your ads reach people already buying products like yours, not just lookalikes.</div>
