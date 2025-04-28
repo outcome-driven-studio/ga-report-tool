@@ -80,7 +80,9 @@ export default function Home({
                             <Image className="w-16 h-16 rounded-lg" src={logoUrl} alt={companyName || "LilBucks"} width={70} height={70} />
                         </div>
                         <div className="w-[80%] flex flex-col justify-start items-start flex-grow">
-                            <div className="w-full justify-start text-black text-5xl font-bold truncate">{(companyName)?.substring(0, 31)}</div>
+                            <div className="w-full justify-start text-black text-5xl font-bold truncate" title={companyName || ""}>
+                                {(companyName)?.substring(0, 31)}
+                            </div>
                             <div className="justify-start text-zinc-500 text-sm font-medium truncate overflow-hidden">Audience Segments</div>
                         </div>
                     </div>
